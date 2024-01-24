@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Futura";
+  font-weight: 500;
+  font-style: normal;
+  src:
+    local("Futura"),
+    font-url("/src/fonts/Futura/futur.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Futura";
+  font-weight: 700;
+  font-style: bold;
+  src:
+    local("Futura"),
+    font-url("/src/fonts/Futura/Futura Bold font.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #fff0f3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+a,
+button,
+textarea {
+  font-family: "Futura", Futura, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Futura", Futura, sans-serif;
+  overflow-wrap: break-word;
+}
+
+button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input {
+  border: none;
+}

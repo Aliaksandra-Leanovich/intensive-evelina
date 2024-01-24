@@ -1,1 +1,1 @@
-# intensive-evelina
+# marathon-evelina
