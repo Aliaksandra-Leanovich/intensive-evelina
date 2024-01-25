@@ -11,11 +11,13 @@ import {
 } from "./style";
 import { Colors, Typography } from "../../ui";
 import { TypographyVariants } from "../../enums";
+import { VideoPlayer } from "../VideoPlayer/VideoPlayer";
 
 export const Pains = () => {
   return (
     <WrapperSC>
       <ContainerSC>
+        <VideoPlayer />
         <ContainerRatesSC>
           <RateSC>
             <TitleSC>
