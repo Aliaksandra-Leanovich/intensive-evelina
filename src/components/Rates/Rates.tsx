@@ -114,6 +114,14 @@ export const Rates = () => {
             </Typography>
           </TextContainerSC>
           <LinksSC href="https://t.me/evi_skoblya"> Участвовать</LinksSC>
+          <Typography
+            variant={TypographyVariants.subtitle}
+            color={Colors.TEXTDARK}
+          >
+            *после перехода напишите слово «хочу» и вам придет счет для
+            оплаты*после перехода напишите слово «хочу» и вам придет счет для
+            оплаты
+          </Typography>
         </RateSC>
       </ContainerSC>
     </WrapperSC>
