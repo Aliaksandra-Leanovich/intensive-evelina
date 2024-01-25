@@ -113,7 +113,7 @@ export const LinksContainerSC = styled.div`
   }
 `;
 
-export const LinkFirstSC = styled.a`
+export const LinkFirstSC = styled(Link)`
   max-width: 260px;
   color: ${Colors.SECONDARY};
   font-size: 20px;

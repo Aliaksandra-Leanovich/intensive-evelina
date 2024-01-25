@@ -42,7 +42,7 @@ export const Main = () => {
           </Typography>
 
           <LinksContainerSC>
-            <LinkFirstSC href="https://t.me/evi_skoblya">
+            <LinkFirstSC to="rates" smooth={true} duration={500}>
               Участвовать
             </LinkFirstSC>
             <LinkSecondSC to="programm" smooth={true} duration={500}>
