@@ -118,9 +118,7 @@ export const Rates = () => {
             variant={TypographyVariants.subtitle}
             color={Colors.TEXTDARK}
           >
-            *после перехода напишите слово «хочу» и вам придет счет для
-            оплаты*после перехода напишите слово «хочу» и вам придет счет для
-            оплаты
+            *после перехода напишите слово «хочу» и вам придет счет для оплаты
           </Typography>
         </RateSC>
       </ContainerSC>
