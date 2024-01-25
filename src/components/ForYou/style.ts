@@ -15,7 +15,6 @@ export const ContainerSC = styled.div`
 
   ${media.TABLET} {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
   }
 `;
 
