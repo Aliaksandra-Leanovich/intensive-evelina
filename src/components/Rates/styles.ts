@@ -78,6 +78,7 @@ export const LinksSC = styled.a`
   display: block;
   text-align: center;
   padding: 10px 0;
+  margin-bottom: 6px;
 
   &:hover {
     background-color: ${Colors.TEXTDARK};
