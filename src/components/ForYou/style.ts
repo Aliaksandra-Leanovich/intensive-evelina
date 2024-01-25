@@ -56,11 +56,9 @@ export const ContainerRatesSC = styled.div`
   display: flex;
   flex-direction: column;
   padding: 20px;
-  row-gap: 20px;
 
   ${media.TABLET} {
     width: 80%;
-    row-gap: 10px;
     padding: 10px;
   }
 `;
