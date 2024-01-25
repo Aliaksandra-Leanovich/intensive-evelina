@@ -23,7 +23,6 @@ export const WrapperSC = styled.div`
   max-width: 1440px;
   margin: 0 auto;
   padding: 26px 60px 16px 26px;
-  /* position: relative; */
 `;
 
 export const ContainerSC = styled.div`

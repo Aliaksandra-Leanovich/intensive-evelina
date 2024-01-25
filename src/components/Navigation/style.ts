@@ -54,7 +54,7 @@ export const ContainerRightSC = styled.div<IStylesProps>`
   }
 
   main {
-    overflow: ${({ isOpen }) => (isOpen ? "hidden" : "auto")}; // BUG
+    overflow: ${({ isOpen }) => (isOpen ? "hidden" : "auto")};
   }
 `;
 
